@@ -1,0 +1,1289 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Q1:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Think of at least three kinds of your favorite pizza. Store these pizza names in a list, and then use a for loop to print the name of each pizza."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "fav_pizza = [\"bbq\" , \"creamy\" , \"tikka\"]\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "bbq\n",
+      "creamy\n",
+      "tikka\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in fav_pizza:\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Q2"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Start with your last question , Modify your for loop to print a sentence using the name of the pizza\n",
+    "instead of printing just the name of the pizza. For each pizza you should\n",
+    "have one line of output containing a simple statement like I like pepperoni\n",
+    "pizza."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "I like bbq\n",
+      "I like creamy\n",
+      "I like tikka\n"
+     ]
+    }
+   ],
+   "source": [
+    "fav_pizza = [\"bbq\" , \"creamy\" , \"tikka\"]\n",
+    "\n",
+    "for pizza in fav_pizza:\n",
+    "    print(f'I like {pizza}')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Q3:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Use a for loop to print the numbers from 1 to 20,\n",
+    "inclusive."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n",
+      "6\n",
+      "7\n",
+      "8\n",
+      "9\n",
+      "10\n",
+      "11\n",
+      "12\n",
+      "13\n",
+      "14\n",
+      "15\n",
+      "16\n",
+      "17\n",
+      "18\n",
+      "19\n",
+      "20\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(1 ,21):\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Q4:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Use the third argument of the range() function to make a list\n",
+    "of the odd numbers from 1 to 20. Use a for loop to print each number."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "3\n",
+      "5\n",
+      "7\n",
+      "9\n",
+      "11\n",
+      "13\n",
+      "15\n",
+      "17\n",
+      "19\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(1,21,2):\n",
+    "    print(i)\n",
+    "    \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Q5:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Make a list of the multiples of 3 from 3 to 30. Use a for loop to\n",
+    "print the numbers in your list."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "list_1 = [ 3 , 6 , 9 , 12 , 15 , 18 ,21 , 24 , 27 , 30 ]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3\n",
+      "6\n",
+      "9\n",
+      "12\n",
+      "15\n",
+      "18\n",
+      "21\n",
+      "24\n",
+      "27\n",
+      "30\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in (list_1):\n",
+    "    print (i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Q6:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "A number raised to the third power is called a cube. For example,\n",
+    "the cube of 2 is written as 2**3 in Python. Make a list of the first 10 cubes (that\n",
+    "is, the cube of each integer from 1 through 10), and use a for loop to print out\n",
+    "the value of each cube"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "8\n",
+      "27\n",
+      "64\n",
+      "125\n",
+      "216\n",
+      "343\n",
+      "512\n",
+      "729\n",
+      "1000\n"
+     ]
+    }
+   ],
+   "source": [
+    "cube_list = [1**3 , 2**3 , 3**3 , 4**3 , 5**3 , 6**3 , 7**3 , 8**3 , 9**3 , 10**3]\n",
+    "for i in cube_list:\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Q7:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "###### Make a python program that conatains your nine favourite dishes in a list called foods.\n",
+    "\n",
+    "###### Print the message, The first three items in the list are:. \n",
+    "###### Then use a slice to print the first three items from that program’s list.\n",
+    "\n",
+    "###### Print the message, Three items from the middle of the list are:\n",
+    "###### Use a slice to print three items from the middle of the list.\n",
+    "\n",
+    "###### Print the message, The last three items in the list are:\n",
+    "###### Use a slice to print the last three items in the list."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 103,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "foods = ['lasagna', 'spaghetti', 'noodles' , 'chicken' , 'chowmin', 'sandwich' , 'pasta', 'macroni' , 'vegetables']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " The first three items in the list are:['lasagna', 'spaghetti', 'noodles']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(f' The first three items in the list are:{foods[0:3]}')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " Three items from the middle of the list are:['chicken', 'chowmin', 'sandwich']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(f' Three items from the middle of the list are:{foods[3:6]}')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The last three items in the list are:['pasta', 'macroni', 'vegetables']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(f'The last three items in the list are:{foods[6:]}')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Q8:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Start with your program from your last Question8.\n",
+    "###### Make a copy of the list of foods, and call it friend_foods.\n",
+    "###### Then, do the following:\n",
+    "######    Add a new dish to the original list.\n",
+    "######    Add a different dish to the list friend_foodss.\n",
+    "######    Prove that you have two separate lists. \n",
+    "###### Print the message, My favorite pizzas are: and then use a for loop to print the first list. \n",
+    "###### Print the message,\n",
+    "###### My friend’s favorite foods are:, and then use a for loop to print the second list.\n",
+    "    \n",
+    "##### NOTE: Make sure each new dish is stored in the appropriate list."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 104,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['lasagna',\n",
+       " 'spaghetti',\n",
+       " 'noodles',\n",
+       " 'chicken',\n",
+       " 'chowmin',\n",
+       " 'sandwich',\n",
+       " 'pasta',\n",
+       " 'macroni',\n",
+       " 'vegetables']"
+      ]
+     },
+     "execution_count": 104,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "friend_foodss = foods.copy()\n",
+    "friend_foodss"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 105,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['lasagna',\n",
+       " 'spaghetti',\n",
+       " 'noodles',\n",
+       " 'chicken',\n",
+       " 'chowmin',\n",
+       " 'sandwich',\n",
+       " 'pasta',\n",
+       " 'macroni',\n",
+       " 'vegetables',\n",
+       " 'chinese']"
+      ]
+     },
+     "execution_count": 105,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "foods.append('chinese')\n",
+    "foods"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 106,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['lasagna',\n",
+       " 'spaghetti',\n",
+       " 'noodles',\n",
+       " 'chicken',\n",
+       " 'chowmin',\n",
+       " 'sandwich',\n",
+       " 'pasta',\n",
+       " 'macroni',\n",
+       " 'vegetables',\n",
+       " 'spicy']"
+      ]
+     },
+     "execution_count": 106,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "friend_foodss.append('spicy')\n",
+    "friend_foodss"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 107,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "my favourite pizzas are lasagna\n",
+      "my favourite pizzas are spaghetti\n",
+      "my favourite pizzas are noodles\n",
+      "my favourite pizzas are chicken\n",
+      "my favourite pizzas are chowmin\n",
+      "my favourite pizzas are sandwich\n",
+      "my favourite pizzas are pasta\n",
+      "my favourite pizzas are macroni\n",
+      "my favourite pizzas are vegetables\n",
+      "my favourite pizzas are spicy\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in friend_foodss:\n",
+    "    print(f'my favourite pizzas are {i}')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 108,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "my favourite dishes are lasagna\n",
+      "my favourite dishes are spaghetti\n",
+      "my favourite dishes are noodles\n",
+      "my favourite dishes are chicken\n",
+      "my favourite dishes are chowmin\n",
+      "my favourite dishes are sandwich\n",
+      "my favourite dishes are pasta\n",
+      "my favourite dishes are macroni\n",
+      "my favourite dishes are vegetables\n",
+      "my favourite dishes are chinese\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in foods:\n",
+    "\n",
+    "    print(f'my favourite dishes are {i}')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    " "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Q9:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Take a user input from console line.Store it in a variable called Alien_color.\n",
+    "\n",
+    "If the alien’s color is red, print a statement that the player just earned 5 points for shooting the alien.\n",
+    "\n",
+    "If the alien’s color isn’t green, print a statement that the player just earned 10 points.\n",
+    "\n",
+    "If the alien's color isn't red or green , print a statment :, Alien is no more....."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Name the Color of the Alien green\n",
+      "You got 10 points\n"
+     ]
+    }
+   ],
+   "source": [
+    "Alien_color = input('Name the Color of the Alien ')\n",
+    "if Alien_color=='red':\n",
+    "    print('You got 5 points')\n",
+    "elif Alien_color=='green':\n",
+    "    print('You got 10 points')\n",
+    "else:\n",
+    "    print('Alien is no more')\n",
+    "    \n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Name the Color of the Alien red\n",
+      "You got 5 points\n"
+     ]
+    }
+   ],
+   "source": [
+    "Alien_color = input('Name the Color of the Alien ')\n",
+    "if Alien_color=='red':\n",
+    "    print('You got 5 points')\n",
+    "elif Alien_color=='green':\n",
+    "    print('You got 10 points')\n",
+    "else:\n",
+    "    print('Alien is no more')\n",
+    "    \n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Name the Color of the Alien blue\n",
+      "Alien is no more\n"
+     ]
+    }
+   ],
+   "source": [
+    "Alien_color = input('Name the Color of the Alien ')\n",
+    "if Alien_color=='red':\n",
+    "    print('You got 5 points')\n",
+    "elif Alien_color=='green':\n",
+    "    print('You got 10 points')\n",
+    "else:\n",
+    "    print('Alien is no more')\n",
+    "    \n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Q10:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Write an if-elif-else chain that determines a person’s\n",
+    "stage of life. Set a value for the variable age, and then:\n",
+    "    \n",
+    "•\t If the person is less than 2 years old, print a message that the person is a baby.\n",
+    "\n",
+    "•\t If the person is at least 2 years old but less than 4, print a message that the person is a toddler.\n",
+    "\n",
+    "•\t If the person is at least 4 years old but less than 13, print a message that the person is a kid.\n",
+    "\n",
+    "•\t If the person is at least 13 years old but less than 20, print a message that the person is a teenager.\n",
+    "\n",
+    "•\t If the person is at least 20 years old but less than 65, print a message that the person is an adult.\n",
+    "\n",
+    "•\t If the person is age 65 or older, print a message that the person is an elder."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "your Age?1\n",
+      "You are a Baby\n"
+     ]
+    }
+   ],
+   "source": [
+    "age = int(input('your Age?'))\n",
+    "if age <2:\n",
+    "    print('You are a Baby')\n",
+    "elif age<4:\n",
+    "    print ('You are a Toddler')\n",
+    "elif age<13:\n",
+    "    print('You are a Kid')\n",
+    "elif age<20:\n",
+    "    print('you are a teenager')\n",
+    "elif  age<65:\n",
+    "    print('Yoy are an Adult')\n",
+    "else:\n",
+    "    print('You are an Elder')\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "your Age?2\n",
+      "You are a Toddler\n"
+     ]
+    }
+   ],
+   "source": [
+    "age = int(input('your Age?'))\n",
+    "if age <2:\n",
+    "    print('You are a Baby')\n",
+    "elif age<4:\n",
+    "    print ('You are a Toddler')\n",
+    "elif age<13:\n",
+    "    print('You are a Kid')\n",
+    "elif age<20:\n",
+    "    print('you are a teenager')\n",
+    "elif  age<65:\n",
+    "    print('Yoy are an Adult')\n",
+    "else:\n",
+    "    print('You are an Elder')\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "your Age?4\n",
+      "You are a Kid\n"
+     ]
+    }
+   ],
+   "source": [
+    "age = int(input('your Age?'))\n",
+    "if age <2:\n",
+    "    print('You are a Baby')\n",
+    "elif age<4:\n",
+    "    print ('You are a Toddler')\n",
+    "elif age<13:\n",
+    "    print('You are a Kid')\n",
+    "elif age<20:\n",
+    "    print('you are a teenager')\n",
+    "elif  age<65:\n",
+    "    print('Yoy are an Adult')\n",
+    "else:\n",
+    "    print('You are an Elder')\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "your Age?65\n",
+      "You are an Elder\n"
+     ]
+    }
+   ],
+   "source": [
+    "age = int(input('your Age?'))\n",
+    "if age <2:\n",
+    "    print('You are a Baby')\n",
+    "elif age<4:\n",
+    "    print ('You are a Toddler')\n",
+    "elif age<13:\n",
+    "    print('You are a Kid')\n",
+    "elif age<20:\n",
+    "    print('you are a teenager')\n",
+    "elif  age<65:\n",
+    "    print('Yoy are an Adult')\n",
+    "else:\n",
+    "    print('You are an Elder')\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Q11:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Do the following to create a program that simulates how websites ensure that everyone has a unique username.\n",
+    "\n",
+    "•\t Make a list of five or more usernames called current_users.\n",
+    "\n",
+    "•\t Make another list of five usernames called new_users. \n",
+    "Make sure one or two of the new usernames are also in the current_users list.\n",
+    "\n",
+    "•\t Loop through the new_users list to see if each new username has already been used. \n",
+    "If it has, print a message that the person will need to enter a new username. \n",
+    "If a username has not been used, print a message saying that the username is available.\n",
+    "\n",
+    "•\t Make sure your comparison is case insensitive. If 'John' has been used, 'JOHN' should not be accepted."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Enter the user nameIqra\n",
+      "the user name iqra is avilable\n"
+     ]
+    }
+   ],
+   "source": [
+    "current_users = ['saba', 'sana', 'ali' , 'tara' , 'sara']\n",
+    "new_users = ['shugufta' , 'sobia' , 'sana' , 'ali' , 'ammar']\n",
+    "new_user = input('Enter the user name').lower()\n",
+    "\n",
+    "if new_user in current_users:\n",
+    "        print(f'{new_user} is already taken')\n",
+    "else:\n",
+    "    print(f'the user name {new_user} is avilable')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Q12:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Use a dictionary to store information about a person you know.\n",
+    "Store their first name, last name, age, and the city in which they live. \n",
+    "You should have keys such as first_name, last_name, age, and city. \n",
+    "Print each piece of information stored in your dictionary"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "bio_data = {'first_name': 'shugufta' , 'last_name': 'hussein', 'age':'22', 'city':'karachi'}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'first_name': 'shugufta',\n",
+       " 'last_name': 'hussein',\n",
+       " 'age': '22',\n",
+       " 'city': 'karachi'}"
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "bio_data\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Q13:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Starts with your last question 12 , loop through the dictionary’s keys and values.\n",
+    "When you’re sure that your loop works, add five more Python terms to your\n",
+    "dictionary . When you run your program again, these new words and meanings\n",
+    "should automatically be included in the output."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "bio_data['contact']=123456789\n",
+    "bio_data['status']=\"single\"\n",
+    "bio_data['qualification']='student'\n",
+    "bio_data['gender']= 'female'\n",
+    "bio_data['nickname']= 'shugu'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'first_name': 'shugufta',\n",
+       " 'last_name': 'hussein',\n",
+       " 'age': '22',\n",
+       " 'city': 'karachi',\n",
+       " 'contact': 123456789,\n",
+       " 'status': 'single',\n",
+       " 'qualification': 'student',\n",
+       " 'gender': 'female',\n",
+       " 'nickname': 'shugu'}"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "bio_data"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "first_name shugufta\n",
+      "last_name hussein\n",
+      "age 22\n",
+      "city karachi\n",
+      "contact 123456789\n",
+      "status single\n",
+      "qualification student\n",
+      "gender female\n",
+      "nickname shugu\n"
+     ]
+    }
+   ],
+   "source": [
+    "for (key,value) in bio_data.items():\n",
+    "    print(key,value)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Q14:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Make a dictionary containing three major rivers and the country\n",
+    "each river runs through. One key-value pair might be 'nile': 'egypt'.\n",
+    "    \n",
+    "    \n",
+    "•\t Use a loop to print a sentence about each river, such as The Nile runs\n",
+    "through Egypt.\n",
+    "\n",
+    "NOTE: use upper case through keys and values."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 69,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'indus': 'Pakistan', 'nile': 'egypt', 'amazon': 'america'}"
+      ]
+     },
+     "execution_count": 69,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "major_rivers= {'indus':'Pakistan', 'nile': 'egypt','amazon':'america'}\n",
+    "major_rivers"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The river AMAZON runs through AMERICA\n",
+      "The river AMAZON runs through AMERICA\n",
+      "The river AMAZON runs through AMERICA\n"
+     ]
+    }
+   ],
+   "source": [
+    "for a,b in major_rivers.items():\n",
+    "    print(f'The river {key.upper()} runs through {value.upper()}')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Q15:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Make several dictionaries, where the name of each dictionary is the\n",
+    "name of a pet. In each dictionary, include the kind of animal and the owner’s\n",
+    "name. Store these dictionaries in a list called pets. Next, loop through your list\n",
+    "and as you do print everything you know about each pet."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 71,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[{'kind': 'kitten', 'owner': 'sana'},\n",
+       " {'color': 'green', 'owner': 'sara'},\n",
+       " {'does': 'mooo', 'owner': 'ali'}]"
+      ]
+     },
+     "execution_count": 71,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "lucy ={ 'kind': 'kitten', 'owner': 'sana'}\n",
+    "parrot = {'color':'green','owner':'sara'}\n",
+    "cow = {'does':'mooo','owner': 'ali'}\n",
+    "pets =[lucy,parrot,cow]\n",
+    "pets\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 82,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{'kind': 'kitten', 'owner': 'sana'}\n",
+      "{'color': 'green', 'owner': 'sara'}\n",
+      "{'does': 'mooo', 'owner': 'ali'}\n"
+     ]
+    }
+   ],
+   "source": [
+    "for pet in pets:\n",
+    "    print(pet)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
